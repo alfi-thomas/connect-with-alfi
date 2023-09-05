@@ -1,0 +1,36 @@
+html{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body::before{
+    background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgdocservices.com%2Fwp-content%2Fuploads%2F2020%2F06%2FAdobeStock_164991966.jpeg&f=1&nofb=1&ipt=2679d0befb942720e5775d492fe34647e713da9e1e2343f2624be8328eb0b3e6&ipo=images);
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
+}
+
+img:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+    box-shadow: 0 0 10px 5px rgba(37, 37, 37, 0.1);
+    border-radius: 50%;
+}
