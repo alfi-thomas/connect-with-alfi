@@ -19,7 +19,8 @@ body::before{
 }
 
 img {
-    width: 80%;
+    width: 1000px;
+    max-width: 100%;
     height: auto;
     position: fixed;
     top: 50%;
